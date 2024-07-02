@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+table {
+    -webkit-box-shadow: 12px 13px 18px 8px rgba(59,42,16,0.44); 
+    box-shadow: 12px 13px 18px 8px rgba(59,42,16,0.44);
+    border: solid 1px gray;
+}
+table thead th {
+        background-color: rgb(56, 240, 87);
+        color: black
+}
+table tfoot td {
+    background-color: rgb(167, 255, 182);
+}
+table tbody tr:nth-child(even) td {
+    background-color: #bff8ab;
+}
+table tbody tr:hover td {
+    background-color: rgb(56, 240, 87);
+    cursor: pointer;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(239, 246, 234);
+    padding: 10px 20px 0px;
+    margin: 0;
+    
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(56, 240, 87);
+    min-height: 5px;
+    display: flex;
+    justify-content: center;
+       
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(56, 240, 87);
+    
+}
+
+mark {
+    background-color: rgb(56, 240, 87);
+   }
